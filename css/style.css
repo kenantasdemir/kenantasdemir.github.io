@@ -1,0 +1,371 @@
+/*=== MEDIA QUERY ===*/
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,500,600);
+@import url(http://fonts.googleapis.com/css?family=Volkhov:400italic);
+body {
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+p {
+  color: #7B7B7B;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+
+
+a, a:focus, a:hover {
+  text-decoration: none;
+  outline: 0;
+  color: #655E7A;
+}
+
+
+.navbar-toggle .icon-bar {
+  background: #655E7A;
+}
+
+
+
+
+
+.btn-main, .btn-transparent, .btn-small {
+  background: #655E7A;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 14px 35px;
+  text-transform: uppercase;
+  border-radius: 0;
+  transition: all 0.2s ease;
+}
+
+.btn-main.btn-icon i, .btn-icon.btn-transparent i, .btn-icon.btn-small i {
+  font-size: 16px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.btn-main:hover, .btn-transparent:hover, .btn-small:hover {
+  background: #353240;
+  color: #fff;
+}
+
+.btn-solid-border {
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+}
+
+.btn-solid-border:hover {
+  border: 1px solid #655E7A;
+  background: #655E7A;
+}
+
+.btn-transparent {
+  background: transparent;
+  padding: 0;
+  color: #655E7A;
+}
+
+.btn-transparent:hover {
+  background: transparent;
+  color: #655E7A;
+}
+
+.btn-large {
+  padding: 20px 45px;
+}
+
+.btn-large.btn-icon i {
+  font-size: 16px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.btn-small {
+  padding: 10px 25px;
+  font-size: 12px;
+}
+
+.btn-round {
+  border-radius: 4px;
+}
+
+.btn-round-full {
+  border-radius: 50px;
+}
+
+.btn.active:focus, .btn:active:focus, .btn:focus {
+  outline: 0;
+}
+
+.mt-10 {
+  margin-top: 20px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.btn:focus {
+  color: #ddd;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.margin-0 {
+  margin: 0 !important;
+}
+
+
+.section {
+  padding: 100px 0;
+}
+
+.section-sm {
+  padding: 70px 0;
+}
+
+
+.section-title {
+  margin-bottom: 70px;
+}
+
+.section-title h2 {
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.section-title p {
+  font-style: italic;
+  color: #666;
+  font-family: "Volkhov", serif;
+}
+.overly, .page-title, .slider {
+  position: relative;
+}
+
+.overly:before, .page-title:before, .slider:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #1d192c;
+  opacity: 0.8;
+}
+
+header {
+  background: #fff;
+  padding: 20px 0;
+}
+
+
+
+header .navbar {
+  margin-bottom: 0px;
+  border: 0px;
+}
+
+header .navbar-brand {
+  padding-top: 5px;
+}
+
+header  {
+  background: none;
+  border: 0px;
+}
+
+header .navbar-nav {
+  padding-top: 10px;
+}
+
+header .navbar-nav li a {
+  color: #333333;
+  padding: 10px 26px;
+  font-size: 15px;
+}
+
+font header  .navbar-nav li a:hover {
+  color: #000;
+}
+
+
+.slider {
+  background: url("../images/slider-bg.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 10% 0%;
+  padding: 200px 0 280px 0;
+  position: relative;
+}
+
+.slider .block {
+  color: #E3E3E4;
+  text-align: center;
+}
+
+.slider .block h1 {
+  font-weight: 100;
+  font-size: 45px;
+  line-height: 60px;
+  letter-spacing: 10px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.slider .block p {
+  margin-bottom: 30px;
+  color: #b9b9b9;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 300;
+}
+
+.section1 {
+  padding: 70px 0px;
+  text-align: center;
+}
+
+.section1 h2 {
+  color: #fff;
+}
+
+.section1 p {
+  color: #fff;
+}
+
+.section1 .btn-main, .section1 .btn-transparent, .section1 .btn-small {
+  padding: 15px 35px;
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+.service {
+  text-align: center;
+  padding: 90px 0;
+}
+
+.service .service-item {
+  padding-bottom: 30px;
+}
+
+.service .service-item i {
+  font-size: 60px;
+  color: #655E7A;
+}
+
+.service .service-item h4 {
+  padding-top: 15px;
+  margin: 0;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.service .service-item p {
+  padding-top: 10px;
+  margin: 0;
+}
+
+
+.about .block h2 {
+  padding-top: 35px;
+  margin: 0;
+}
+
+.about .block p {
+  padding-top: 20px;
+  line-height: 28px;
+}
+
+.about .block img {
+  width: 100%;
+}
+
+.about .about-img {
+  overflow: hidden;
+}
+
+.about .about-img:hover img {
+  -webkit-transform: scale3D(1.1, 1.1, 1);
+          transform: scale3D(1.1, 1.1, 1);
+}
+
+.about .about-img img {
+  opacity: .6;
+  transition: all 0.5s ease-out;
+}
+
+.about .section-title {
+  margin-bottom: 0px;
+}
+
+
+.bg-1 {
+  background-image: url("../images/section1-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.bg-2 {
+  background: url("../images/featue-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+img.logo{
+  max-width: 50px;
+  max-height: 50px;
+}
+
+
+.mtop{
+  margin-top: 50px;
+}
